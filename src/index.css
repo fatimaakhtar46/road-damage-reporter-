@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Leaflet map base styles and marker reset */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background-color: #0a0a0a !important;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  padding: 4px !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+}
+
+/* Custom Marker Styling */
+.custom-pothole-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+.vehicle-tracker-marker {
+  background: transparent !important;
+  border: none !important;
+}

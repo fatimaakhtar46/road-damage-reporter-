@@ -1,0 +1,11 @@
+{
+  "name": "Road Damage Reporter",
+  "description": "AI-based pothole and road damage detection, classification, spatial GIS mapping, and municipal work-order dispatch system.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
